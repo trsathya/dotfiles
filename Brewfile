@@ -3,42 +3,48 @@ tap "homebrew/cask"
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "homebrew/cask-versions"
-brew "zsh"
-brew "z"
-brew "carthage", args: ["HEAD"]
+#brew "bitrise"
+brew "carthage"#, args: ["HEAD"]
+#brew "cocoapods"
 brew "go"
-brew "openssl"
-brew "nginx"
-brew "postgresql"
-brew "sqlite"
-brew "mas"
-brew "readline"
-#brew "node"
+brew "ios-sim"
 #brew "heroku" # Also installs pkg-config, sphinx-doc, gdbm, makedepend, openssl, readline, sqlite, python@2, icu4c, node
-#brew "npm"
+brew "mas"
 #brew "mysql"
+#brew "nginx"
+#brew "node"
+#brew "npm"
+#brew "openssl"
+#brew "postgresql"
+brew "sqlite"
+brew "tree"
+#brew "z"
+brew "zsh"
+brew "zsh-autosuggestions"
+brew "zsh-completions"
+brew "zsh-syntax-highlighting"
 
 # Casks
 cask "atom"
+cask "cd-to"
+cask "dash"
 cask "firefox"
-cask "github"
-cask "google-chrome"
-cask "iterm2"
-cask "private-internet-access"
-cask "sublime-text"
-cask "visual-studio-code"
 cask "flash-npapi" # safari / firefox
 cask "flash-ppapi" # Opera / Chromium
-#cask "skype"
-#cask "vlc"
-#cask "spotify"
-#cask "transmission" # torrenting
+cask "github"
+cask "google-chrome"
 #cask "imageoptim"
 #cask "imagealpha" # lossy transparent png compression
-cask "dash"
-cask "cd-to"
+cask "iterm2"
 #cask "postman"
-
+cask "private-internet-access"
+cask "pusher"
+#cask "spotify"
+#cask "skype"
+cask "sublime-text"
+#cask "transmission" # torrenting
+cask "visual-studio-code"
+#cask "vlc"
 
 # Mac App Store Apps
 #mas "Numbers", id: 409203825
