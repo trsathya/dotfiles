@@ -1,0 +1,22 @@
+#!/usr/bin/env sh
+sudo rm -dfr /usr/local/lib/node
+sudo rm -dfr /usr/local/lib/node_modules
+sudo rm -dfr /usr/local/include/node
+sudo rm -dfr /usr/local/include/node_modules
+sudo rm -dfr /usr/local/bin/node
+sudo rm -dfr /usr/local/bin/node-debug
+sudo rm -dfr /usr/local/bin/node-gyp
+sudo rm -dfr ~/.npm
+sudo rm -dfr ~/.node-gyp
+sudo rm -dfr /usr/local/share/man/man1/node*
+sudo rm -dfr /usr/local/share/man/man1/npm*
+sudo rm -dfr /usr/local/lib/dtrace/node.d
+sudo rm -dfr /opt/local/bin/node
+sudo rm -dfr /opt/local/include/node
+sudo rm -dfr /opt/local/lib/node_modules
+sudo rm -dfr /usr/local/share/doc/node
+sudo rm -dfr /usr/local/share/systemtap/tapset/node.stp
+
+#sudo chmod 777 /usr/local/share/systemtap/tapset
+#brew link node
+#sudo chmod 775 /usr/local/share/systemtap/tapset
