@@ -1,2 +1,4 @@
 #!/usr/bin/env sh
+#sudo chmod 777 /usr/local/share/systemtap/tapset
 brew bundle install --verbose --file=~/dotfiles/Brewfile
+#sudo chmod 775 /usr/local/share/systemtap/tapset

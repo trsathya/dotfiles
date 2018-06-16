@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+sudo ln -s ~/dotfiles/.bashrc ~/.bashrc
+#rm -dfr ~/.zshrc
+sudo ln -s ~/dotfiles/.zshrc ~/.zshrc

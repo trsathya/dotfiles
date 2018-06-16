@@ -1,8 +1,9 @@
+tap "heroku/brew"
+#tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/cask"
 tap "homebrew/bundle"
-tap "homebrew/services"
-tap "homebrew/cask-versions"
+#tap "homebrew/services"
 brew "bitrise"
 brew "carthage"#, args: ["HEAD"]
 brew "cocoapods"
@@ -47,11 +48,14 @@ cask "visual-studio-code"
 #cask "vlc"
 
 # Mac App Store Apps
+#mas "Battery Monitor", id: 836505650
+#mas "GarageBand", id: 682658836
+#mas "iMovie", id: 408981434
+#mas "Keynote", id: 409183694
+#mas "kindle", id: 405399194
 #mas "Numbers", id: 409203825
 #mas "Pages", id: 409201541
-#mas "Keynote", id: 409183694
-#mas "iMovie", id: 408981434
-#mas "GarageBand", id: 682658836
-#mas "Xcode", id: 497799835
+#mas "Server", id: 883878097
 #mas "shazam", id: 897118787
-#mas "kindle", id: 405399194
+#mas "Slack", id: 803453959
+#mas "Xcode", id: 497799835

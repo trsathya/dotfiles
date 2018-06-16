@@ -18,5 +18,5 @@ sudo rm -dfr /usr/local/share/doc/node
 sudo rm -dfr /usr/local/share/systemtap/tapset/node.stp
 
 #sudo chmod 777 /usr/local/share/systemtap/tapset
-#brew link node
+#brew unlink node && brew link node
 #sudo chmod 775 /usr/local/share/systemtap/tapset
