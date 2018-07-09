@@ -27,6 +27,7 @@ brew "zsh-syntax-highlighting"
 
 # Casks
 cask "atom"
+cask "docker"
 cask "cd-to"
 cask "dash"
 cask "firefox"
@@ -45,6 +46,7 @@ cask "pusher"
 cask "sublime-text"
 #cask "transmission" # torrenting
 cask "visual-studio-code"
+cask "virtualbox"
 #cask "vlc"
 
 # Mac App Store Apps
@@ -57,5 +59,6 @@ cask "visual-studio-code"
 #mas "Pages", id: 409201541
 #mas "Server", id: 883878097
 #mas "shazam", id: 897118787
+#mas "Speedtest by Ookla", id: 1153157709
 #mas "Slack", id: 803453959
 #mas "Xcode", id: 497799835
