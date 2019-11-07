@@ -3,6 +3,7 @@ tap "homebrew/core"
 tap "homebrew/cask"
 tap "homebrew/bundle"
 tap "homebrew/services"
+tap "heroku/brew"
 # brew "asdf" # Minikube Version Management
 # brew "bitrise"
 # brew "carthage"
@@ -11,7 +12,7 @@ tap "homebrew/services"
 # brew "docker-machine-driver-hyperkit"
 # brew "go"
 # brew "ios-sim"
-# brew "heroku" # Also installs pkg-config, sphinx-doc, gdbm, makedepend, openssl, readline, sqlite, python@2, icu4c, node
+brew "heroku" # Also installs pkg-config, sphinx-doc, gdbm, makedepend, openssl, readline, sqlite, python@2, icu4c, node
 # brew "kotlin"
 # brew "kubernetes-cli"
 # brew "lighttpd"
@@ -73,4 +74,4 @@ mas "Pages", id: 409201541
 # mas "shazam", id: 897118787
 # mas "Speedtest by Ookla", id: 1153157709
 mas "Slack", id: 803453959
-# mas "Xcode", id: 497799835
+mas "Xcode", id: 497799835
