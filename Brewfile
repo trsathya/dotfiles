@@ -7,7 +7,7 @@ tap "heroku/brew"
 # brew "asdf" # Minikube Version Management
 # brew "bitrise"
 # brew "carthage"
-# brew "cocoapods"
+brew "cocoapods"
 # brew "composer"
 # brew "docker-machine-driver-hyperkit"
 # brew "go"
@@ -35,7 +35,8 @@ brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 
 # Casks
-# cask "android-studio"
+cask "1password"
+cask "android-studio"
 # cask "atom"
 # cask "docker"
 # cask "cd-to"
@@ -60,7 +61,7 @@ cask "sublime-text"
 cask "shiftit"
 # cask "tableplus"
 # cask "transmission" # torrenting
-# cask "visual-studio-code"
+cask "visual-studio-code"
 # cask "virtualbox"
 # cask "vlc"
 
