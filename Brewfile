@@ -34,6 +34,10 @@ brew "zsh-autosuggestions"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 
+# Tapped brews
+tap "dart-lang/dart"
+brew "dart"
+
 # Casks
 cask "1password"
 cask "android-studio"
