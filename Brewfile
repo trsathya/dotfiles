@@ -78,7 +78,8 @@ cask "visual-studio-code"
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 # mas "Server", id: 883878097
-# mas "shazam", id: 897118787
-# mas "Speedtest by Ookla", id: 1153157709
+mas "shazam", id: 897118787
+mas "Speedtest by Ookla", id: 1153157709
 mas "Slack", id: 803453959
 mas "Xcode", id: 497799835
+mas "Brightness Slider", id: 456624497
