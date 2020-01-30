@@ -54,6 +54,7 @@ cask "google-chrome"
 # cask "imageoptim"
 # cask "imagealpha" # lossy transparent png compression
 # cask "iterm2"
+cask "licecap"
 # cask "minikube"
 # cask "pgadmin4"
 # cask "postman"
