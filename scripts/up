@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 brew upgrade
 brew up
+brew upgrade --cask
 brew cask upgrade
 brew cask upgrade flash-npapi
 brew cask upgrade flash-ppapi
