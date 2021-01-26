@@ -47,8 +47,8 @@ cask "android-studio"
 # cask "docker"
 cask "figma"
 cask "firefox"
-cask "flash-npapi" # safari / firefox
-cask "flash-ppapi" # Opera / Chromium
+#cask "flash-npapi" # safari / firefox
+#cask "flash-ppapi" # Opera / Chromium
 cask "github"
 cask "google-chrome"
 # cask "imageoptim"
@@ -69,7 +69,7 @@ cask "shiftit"
 # cask "transmission" # torrenting
 cask "visual-studio-code"
 # cask "virtualbox"
-# cask "vlc"
+cask "vlc"
 
 # Mac App Store Apps
 # mas "Battery Monitor", id: 836505650
