@@ -15,6 +15,7 @@ brew "cocoapods"
 brew "heroku" # Also installs pkg-config, sphinx-doc, gdbm, makedepend, openssl, readline, sqlite, python@2, icu4c, node
 # brew "kotlin"
 # brew "kubernetes-cli"
+brew "lcov"
 # brew "lighttpd"
 # brew "lua"
 # brew "luarocks"
