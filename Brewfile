@@ -21,14 +21,17 @@ brew "lcov"
 # brew "lua"
 # brew "luarocks"
 brew "mas"
+brew "kubectl"
+brew "minikube"
 # brew "mysql"
 # brew "nginx"
-# brew "node"
-# brew "npm"
+brew "node"
+brew "npm"
 # brew "openssl"
 # brew "php"
 # brew "postgresql"
 # brew "sqlite"
+brew "swiftlint"
 # brew "tree"
 # brew "z"
 brew "ruby"
@@ -52,12 +55,14 @@ cask "figma"
 cask "firefox"
 #cask "flash-npapi" # safari / firefox
 #cask "flash-ppapi" # Opera / Chromium
+cask "flutter"
 cask "github"
 cask "google-chrome"
 # cask "imageoptim"
 # cask "imagealpha" # lossy transparent png compression
 # cask "iterm2"
 cask "licecap"
+cask "miro"
 # cask "minikube"
 # cask "pgadmin4"
 # cask "postman"
@@ -85,6 +90,6 @@ mas "Pages", id: 409201541
 # mas "Server", id: 883878097
 mas "shazam", id: 897118787
 mas "Speedtest by Ookla", id: 1153157709
-mas "Slack", id: 803453959
-mas "Xcode", id: 497799835
+# mas "Slack", id: 803453959
+# mas "Xcode", id: 497799835
 mas "Brightness Slider", id: 456624497
