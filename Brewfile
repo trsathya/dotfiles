@@ -4,8 +4,10 @@ tap "homebrew/cask"
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "heroku/brew"
+
 # brew "asdf" # Minikube Version Management
 # brew "bitrise"
+brew "bazel"
 # brew "carthage"
 brew "cocoapods"
 # brew "composer"
@@ -40,9 +42,8 @@ brew "zsh-autosuggestions"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 
-# Tapped brews
-tap "dart-lang/dart"
-brew "dart"
+tap "leoafarias/fvm"
+brew "fvm"
 
 # Casks
 cask "1password"
@@ -62,7 +63,7 @@ cask "google-chrome"
 # cask "imagealpha" # lossy transparent png compression
 # cask "iterm2"
 cask "licecap"
-cask "miro"
+# cask "miro"
 # cask "minikube"
 # cask "pgadmin4"
 # cask "postman"
